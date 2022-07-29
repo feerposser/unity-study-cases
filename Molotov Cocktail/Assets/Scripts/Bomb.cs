@@ -11,6 +11,7 @@ public class Bomb : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) {
             Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
     }
 }
