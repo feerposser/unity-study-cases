@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2382430148219356018}
   - component: {fileID: 2382430148219356021}
   - component: {fileID: 2382430148219356020}
-  - component: {fileID: 681343193473956747}
   - component: {fileID: 5572435625918370654}
   - component: {fileID: 4920413076329717538}
   - component: {fileID: 1681348173551770124}
@@ -64,7 +63,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: 5000
+  m_ForceMagnitude: 100
   m_ForceVariation: 10
   m_DistanceScale: 1000
   m_ForceSource: 0
@@ -72,18 +71,6 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 0
   m_AngularDrag: 0
---- !u!114 &681343193473956747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2382430148219356023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c83e6a10de5776f42a2c05d24a875040, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &5572435625918370654
 Animator:
   serializedVersion: 3

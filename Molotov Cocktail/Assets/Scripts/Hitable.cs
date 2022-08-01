@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Hitable : MonoBehaviour
 {
+    public ParticleSystem particle;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Explosion"))
         {
-            Debug.Log("explosão");
+            particle.Play();
+            Destroy(gameObject);
         }
     }
 }

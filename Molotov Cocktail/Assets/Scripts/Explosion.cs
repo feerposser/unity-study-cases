@@ -15,6 +15,5 @@ public class Explosion : MonoBehaviour
     void Start()
     {
         anim.SetTrigger("explode");
-        Debug.Log("aaaa");
     }
 }
