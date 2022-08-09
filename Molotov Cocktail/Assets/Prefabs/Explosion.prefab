@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5572435625918370654}
   - component: {fileID: 4920413076329717538}
   - component: {fileID: 1681348173551770124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Explosion
   m_TagString: Explosion
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 0.2
 --- !u!250 &2382430148219356020
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ PointEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 63
   m_ForceMagnitude: 100
   m_ForceVariation: 10
   m_DistanceScale: 1000
@@ -153,3 +153,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c83e6a10de5776f42a2c05d24a875040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyTime: 2

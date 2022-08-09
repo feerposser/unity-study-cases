@@ -7,6 +7,8 @@ public class Explosion : MonoBehaviour
 
     private Animator anim;
 
+    public float destroyTime;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -15,5 +17,6 @@ public class Explosion : MonoBehaviour
     void Start()
     {
         anim.SetTrigger("explode");
+        Destroy(gameObject, destroyTime);
     }
 }
