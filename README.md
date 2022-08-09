@@ -22,6 +22,13 @@ Unity project for solving Unity Learn challenge on camera movement and player co
 
 <hr>
 
+## Molotov Cocktail
+Unity project for learning how to handle with angles and explosions instantiations. In this little project, a non moving player can shot an molotov cocktail in a scene object and an enemy. It was created using mainly point effector and scripts. 
+![image](https://user-images.githubusercontent.com/14969618/183683028-7ac25b6d-7121-4ba1-b7d7-a7fd167caa2d.png)
+![image](https://user-images.githubusercontent.com/14969618/183683220-2158d9d7-879e-4f31-81c5-5f7c005525da.png)
+
+<hr>
+
 ## Drive Car
 Unity project for driving a car using player input.
 ![image](https://user-images.githubusercontent.com/14969618/176949094-b630ffb9-6c2d-4478-b6eb-57e82707b4b3.png)
