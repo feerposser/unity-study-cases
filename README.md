@@ -41,6 +41,8 @@ Project for implements events. In this litle project there is a trash and a butt
 
 All of these are implemented by using: default EventHandler, EventHandler with personal args, Events using delegates and Action Generics delegate.
 
+![image](https://user-images.githubusercontent.com/14969618/186189899-0f8911df-4107-437b-b1a2-a329e51a44dd.png)
+
 <hr>
 
 ## Terrenos
