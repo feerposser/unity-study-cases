@@ -36,6 +36,13 @@ Unity project for driving a car using player input.
 
 <hr>
 
+## Events Handler Patter
+Project for implements events. In this litle project there is a trash and a button that when you press he will instantiate a papper above the trash. When the papper enters in the trash, the game counts +1 papper inside the trash, when fall out counts +1 wasting papper. 
+
+All of these are implemented by using: default EventHandler, EventHandler with personal args, Events using delegates and Action Generics delegate.
+
+<hr>
+
 ## Terrenos
 Unity Terrain studies
 ![image](https://user-images.githubusercontent.com/14969618/176949198-e5fa2259-1101-4688-947f-9051bdbf4cf9.png)
